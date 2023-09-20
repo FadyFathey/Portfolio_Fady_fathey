@@ -11,6 +11,7 @@ import pro2 from "../../Assets/Projects/pro-2.png";
 import pro7 from "../../Assets/Projects/pro-7.png";
 import pro8 from "../../Assets/Projects/pro-8.png";
 import pro9 from "../../Assets/Projects/pro-9.png";
+import pro10 from "../../Assets/Projects/pro-10.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -139,6 +140,17 @@ function Projects() {
               Designed a straightforward user interface, enabling easy navigation through the menu items, offering a clean and intuitive user experience..."
               ghLink="https://github.com/FadyFathey/movieDB"
               demoLink="https://movie-db-30e50.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pro10}
+              isBlog={false}
+              title="My Portfolio"
+              description="a personal portfolio website showcasing my skills, projects, and achievements using modern web technologies, React Js , And more... .
+              Implemented a clean and visually appealing UI/UX design to effectively communicate my professional background, highlight key projects, and provide contact information for potential employers and collaborators."
+              ghLink="https://github.com/FadyFathey/Portfolio_Fady_fathey"
             />
           </Col>
         </Row>
