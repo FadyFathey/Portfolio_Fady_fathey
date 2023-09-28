@@ -12,6 +12,7 @@ import pro7 from "../../Assets/Projects/pro-7.png";
 import pro8 from "../../Assets/Projects/pro-8.png";
 import pro9 from "../../Assets/Projects/pro-9.png";
 import pro10 from "../../Assets/Projects/pro-10.png";
+import pro11 from "../../Assets/Projects/pro-11.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -76,6 +77,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={pro11}
+              isBlog={false}
+              title="Capital Placement Dashboard"
+              description="developed this dashboard based on the design from Capital Placement in Figma. It's a user-friendly interface that provides essential insights and tools for efficient data management."
+              ghLink="https://github.com/FadyFathey/task2"
+              demoLink="https://task2-fady-fathy-capital-palcement.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={pro7}
               isBlog={false}
               title="NeOz CryptoCurrency website with coingecko Api"
@@ -84,7 +96,6 @@ function Projects() {
               demoLink="https://crypto-app-fady-fathy.onrender.com/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pro8}
