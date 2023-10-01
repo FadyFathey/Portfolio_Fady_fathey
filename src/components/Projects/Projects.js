@@ -14,6 +14,7 @@ import pro9 from "../../Assets/Projects/pro-9.png";
 import pro10 from "../../Assets/Projects/pro-10.png";
 import pro11 from "../../Assets/Projects/pro-11.png";
 import pro12 from "../../Assets/Projects/pro-12.png";
+import pro13 from "../../Assets/Projects/pro-13.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -146,21 +147,8 @@ function Projects() {
             <ProjectCard
               imgPath={pro9}
               isBlog={false}
-              title="Menu APP"
-              description="Created a minimalist Food Menu App in React, allowing users to view a basic menu list with food items and their descriptions.
-              Designed a straightforward user interface, enabling easy navigation through the menu items, offering a clean and intuitive user experience..."
-              ghLink="https://github.com/FadyFathey/movieDB"
-              demoLink="https://movie-db-30e50.web.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pro9}
-              isBlog={false}
-              title="Menu APP"
-              description="Created a minimalist Food Menu App in React, allowing users to view a basic menu list with food items and their descriptions.
-              Designed a straightforward user interface, enabling easy navigation through the menu items, offering a clean and intuitive user experience..."
+              title="Movie APP with api"
+              description="a feature-rich movie database platform that offers users a comprehensive library of films, including details, ratings, and trailers. Seamlessly integrating data from multiple "
               ghLink="https://github.com/FadyFathey/movieDB"
               demoLink="https://movie-db-30e50.web.app/"
             />
@@ -174,6 +162,15 @@ function Projects() {
               description="a personal portfolio website showcasing my skills, projects, and achievements using modern web technologies, React Js , And more... .
               Implemented a clean and visually appealing UI/UX design to effectively communicate my professional background, highlight key projects, and provide contact information for potential employers and collaborators."
               ghLink="https://github.com/FadyFathey/Portfolio_Fady_fathey"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pro13}
+              isBlog={false}
+              title="menu-app"
+              description="Designed and developed an interactive menu application that enhances the dining experience."
+              ghLink="https://github.com/FadyFathey/menue-app"
             />
           </Col>
         </Row>
