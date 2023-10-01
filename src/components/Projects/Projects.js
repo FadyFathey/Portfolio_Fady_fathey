@@ -13,6 +13,7 @@ import pro8 from "../../Assets/Projects/pro-8.png";
 import pro9 from "../../Assets/Projects/pro-9.png";
 import pro10 from "../../Assets/Projects/pro-10.png";
 import pro11 from "../../Assets/Projects/pro-11.png";
+import pro12 from "../../Assets/Projects/pro-12.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -132,11 +133,22 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={pro12}
+              isBlog={false}
+              title="vr-headset"
+              description="Crafted an innovative VR headset website that revolutionizes the way users explore virtual reality"
+              ghLink="https://github.com/FadyFathey/vr-HeadSeat"
+              demoLink="https://vr-head-seat-69zweoggk-fadyfathey.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={pro9}
               isBlog={false}
-              title="Movie App with MOVIEDB API"
-              description="Developed a feature-rich Movie App in React.js, integrating the TMDB API to enable users to search for movies, implement pagination for large result sets, and access comprehensive film details including cast, plot, and ratings.
-              Designed and implemented responsive user interfaces, optimized data fetching for improved performance, and ensured seamless navigation between search results and detailed movie information for an enhanced user experience.."
+              title="Menu APP"
+              description="Created a minimalist Food Menu App in React, allowing users to view a basic menu list with food items and their descriptions.
+              Designed a straightforward user interface, enabling easy navigation through the menu items, offering a clean and intuitive user experience..."
               ghLink="https://github.com/FadyFathey/movieDB"
               demoLink="https://movie-db-30e50.web.app/"
             />
