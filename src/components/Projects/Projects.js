@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import pro4 from "../../Assets/Projects/pro-4.png";
-import pro6 from "../../Assets/Projects/pro-6.png";
-import pro3 from "../../Assets/Projects/pro-3.png";
 import pro1 from "../../Assets/Projects/pro-1.png";
-import pro5 from "../../Assets/Projects/pro-5.png";
 import pro2 from "../../Assets/Projects/pro-2.png";
+import pro3 from "../../Assets/Projects/pro-3.png";
+import pro4 from "../../Assets/Projects/pro-4.png";
+import pro5 from "../../Assets/Projects/pro-5.png";
+import pro6 from "../../Assets/Projects/pro-6.png";
 import pro7 from "../../Assets/Projects/pro-7.png";
 import pro8 from "../../Assets/Projects/pro-8.png";
 import pro9 from "../../Assets/Projects/pro-9.png";
@@ -15,6 +15,7 @@ import pro10 from "../../Assets/Projects/pro-10.png";
 import pro11 from "../../Assets/Projects/pro-11.png";
 import pro12 from "../../Assets/Projects/pro-12.png";
 import pro13 from "../../Assets/Projects/pro-13.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -134,7 +135,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pro12}
+              imgPath={pro13}
               isBlog={false}
               title="vr-headset"
               description="Crafted an innovative VR headset website that revolutionizes the way users explore virtual reality"
@@ -166,7 +167,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pro13}
+              imgPath={pro12}
               isBlog={false}
               title="menu-app"
               description="Designed and developed an interactive menu application that enhances the dining experience."
